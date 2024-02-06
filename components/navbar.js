@@ -83,19 +83,14 @@ const Navbar = props => {
           <LinkItem href="/blogs" path={path}>
             Blogs
           </LinkItem>
-          {/* <LinkItem href="https://uses.craftz.dog/">Uses</LinkItem> */}
-          {/* <LinkItem
-            target="_blank"
-            href="https://github.com/craftzdog/craftzdog-homepage"
+          <LinkItem
+            href="https://drive.google.com/file/d/1ujq3e8ug4dIBom8LsWSEbls-k37DrWKm/view?usp=drive_link"
             path={path}
-            display="inline-flex"
-            alignItems="center"
-            style={{ gap: 4 }}
-            pl={2}
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <IoLogoGithub />
-            Source
-          </LinkItem> */}
+            CV
+          </LinkItem>
         </Stack>
 
         <Box flex={1} align="right">

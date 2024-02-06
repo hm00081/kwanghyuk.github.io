@@ -114,7 +114,13 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/blogs">
                   Blogs
                 </MenuItem>
-                <MenuItem as={MenuLink} href="https://uses.craftz.dog/">
+                <MenuItem
+                  href="https://drive.google.com/file/d/1ujq3e8ug4dIBom8LsWSEbls-k37DrWKm/view?usp=drive_link"
+                  as={MenuLink}
+                >
+                  CV
+                </MenuItem>
+                {/* <MenuItem as={MenuLink} href="https://uses.craftz.dog/">
                   Uses
                 </MenuItem>
                 <MenuItem
@@ -122,7 +128,7 @@ const Navbar = props => {
                   href="https://github.com/craftzdog/craftzdog-homepage"
                 >
                   View Source
-                </MenuItem>
+                </MenuItem> */}
               </MenuList>
             </Menu>
           </Box>

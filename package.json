@@ -1,16 +1,18 @@
 {
-  "name": "craftzdog-homepage",
+  "name": "kwanghyuk-homepage",
   "version": "1.0.0",
-  "description": "Takuya's website",
+  "description": "Kwanghyuk's website",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
     "start": "next start",
     "prettier": "prettier --write .",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
-  "author": "Takuya Matsuyama",
+  "author": "Kwanghyuk Moon",
   "license": "MIT",
   "dependencies": {
     "@chakra-ui/icons": "^2.0.15",

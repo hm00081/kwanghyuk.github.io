@@ -12,7 +12,7 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="OGB_LSC">
+  <Layout title="aodr">
     <Container>
       <Title>
         Constructing a Taxonomy for Sentiment Visualization Analysis Using

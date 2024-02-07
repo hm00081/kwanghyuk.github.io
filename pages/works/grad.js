@@ -12,7 +12,7 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="OGB_LSC">
+  <Layout title="grad">
     <Container>
       <Title>
         A Study on the Visualization System Proposal for Effective Argument

@@ -66,9 +66,9 @@ const Home = () => (
           </Heading>
 
           <Box mt="3.5">
-            아주대학교 석사졸업생 문광혁입니다. 데이터 시각화를 전공하였고,
-            데이터 분류, 분석을 위한 웹 기반 데이터 프로덕트 분야에 관심이
-            많습니다. 대학원을 진학하며{' '}
+            웹프론트엔드 개발에 관심이 많은 문광혁입니다. 데이터 시각화를
+            전공하였고, 데이터 분류, 분석을 위한 웹 기반 데이터 프로덕트 분야에
+            관심이 많습니다. 대학원을 진학하며{' '}
             <Link
               as={NextLink}
               href="https://media.ajou.ac.kr/media/professor/professor01.jsp?include=view&article_no=200311010&board_wrapper=%2Fmedia%2Fprofessor%2Fprofessor01.jsp&pager.offset=0&board_no=305"
@@ -328,11 +328,22 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoLinkedin />}
               >
-                Google Scholar
+                LinkedIn
               </Button>
             </Link>
           </ListItem>
-          Email: Kwanghyukli5190 at gmail dot com
+          <ListItem>
+            <Link href="mailto:moonspl@ajou.ac.kr" isExternal>
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoGoogle />}
+              >
+                Email
+              </Button>
+            </Link>
+          </ListItem>
+          Email: moonspl@ajou.ac.kr
         </List>
       </Section>
     </Container>

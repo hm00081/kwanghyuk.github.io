@@ -217,7 +217,7 @@ const Home = () => (
         <PubSection>
           <Link
             as={NextLink}
-            href="https://ieeevis.org/year/2023/info/posters"
+            href="https://drive.google.com/file/d/1tRtoMfkv7J9cZz1K4gtL7IOJy-4STOLA/view?usp=sharing"
             passHref
             target="_blank"
           >

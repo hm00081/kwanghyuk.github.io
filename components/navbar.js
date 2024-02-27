@@ -115,7 +115,7 @@ const Navbar = props => {
                   Blogs
                 </MenuItem>
                 <MenuItem
-                  href="https://drive.google.com/file/d/1ujq3e8ug4dIBom8LsWSEbls-k37DrWKm/view?usp=drive_link"
+                  href="https://drive.google.com/file/d/1_EFZFSpjv2n0TKCcjKshuDvl48d9o9pF/view"
                   as={MenuLink}
                 >
                   CV

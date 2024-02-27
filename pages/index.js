@@ -192,7 +192,12 @@ const Home = () => (
           Researches and Research Assignment
         </Heading>
         <PubSection>
-          <Link as={NextLink} href="" passHref target="_blank">
+          <Link
+            as={NextLink}
+            href="https://journals.sagepub.com/doi/abs/10.1177/14738716241228593"
+            passHref
+            target="_blank"
+          >
             An Exploration System to Effectively Analyze the Visual Metaphor
             Used in Sentiment Visualization
           </Link>
@@ -200,7 +205,7 @@ const Home = () => (
         Hyoji Ha, <b>Kwanghyuk Moon</b>, Hyerim Joung, Hyegyeong Kim, Kyungwon
         Lee.
         <br />
-        (2024) Information Visualization (게재 예정)
+        (2024) Information Visualization
         <PubSection>
           <Link
             as={NextLink}

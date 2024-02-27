@@ -15,6 +15,7 @@ import sentiviz from '../public/images/works/sentiivz_1.jpeg'
 import sentivizTwo from '../public/images/works/sentiviz_2.jpeg'
 import sooyeonjang from '../public/images/works/sooyeonjang.jpg'
 import metaphorBERT from '../public/images/works/epoch_50_bert.png'
+import sagepub from '../public/images/works/sagepub.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -23,6 +24,16 @@ const Works = () => (
         Researches
       </Heading>
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section>
+          <WorkGridItem
+            id="sagepub"
+            title="An Exploration System to Effectively Analyze the Visual Metaphor Used in
+            Sentiment Visualization"
+            thumbnail={sagepub}
+          >
+            Information Visualization
+          </WorkGridItem>
+        </Section>
         <Section>
           <WorkGridItem
             id="grad"

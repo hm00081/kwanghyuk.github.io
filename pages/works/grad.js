@@ -79,10 +79,10 @@ const Work = () => (
         <ListItem>
           <Meta>Tech Report</Meta>
           <Link
-            href="https://drive.google.com/file/d/1sek1rmuIvG3kTukze2qpKiNM0m-wFiT7/view?usp=drive_link"
+            href="https://dcoll.ajou.ac.kr/dcollection/public_resource/pdf/000000033756_20240303155043.pdf"
             isExternal
           >
-            https://drive.google.com/file/d/1sek1rmuIvG3kTukze2qpKiNM0m-wFiT7/view?usp=drive_link{' '}
+            https://dcoll.ajou.ac.kr/dcollection/public_resource/pdf/000000033756_20240303155043.pdf{' '}
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

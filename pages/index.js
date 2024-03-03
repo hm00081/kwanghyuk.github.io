@@ -209,7 +209,7 @@ const Home = () => (
         <PubSection>
           <Link
             as={NextLink}
-            href="https://drive.google.com/file/d/1sek1rmuIvG3kTukze2qpKiNM0m-wFiT7/view?usp=drive_link"
+            href="https://dcoll.ajou.ac.kr/dcollection/public_resource/pdf/000000033756_20240303155043.pdf"
             passHref
             target="_blank"
           >

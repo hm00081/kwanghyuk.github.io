@@ -209,7 +209,7 @@ const Home = () => (
         <PubSection>
           <Link
             as={NextLink}
-            href="https://dcoll.ajou.ac.kr/dcollection/public_resource/pdf/000000033756_20240303155043.pdf"
+            href="https://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=b5b5b02af0b4f4e1ffe0bdc3ef48d419&keyword=%EB%AC%B8%EA%B4%91%ED%98%81"
             passHref
             target="_blank"
           >
